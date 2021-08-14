@@ -1,0 +1,160 @@
+html {
+  font-family: "Ubuntu", sans-serif;
+  color: #06d63a;
+  background-color: #2b2d42;
+}
+
+main {
+  font-family: "Ubuntu", sans-serif;
+  color: #06d63a;
+  background-color: #2b2d42;
+}
+
+#my-name {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.5rem;
+  color: whitesmoke;
+}
+
+.sign {
+}
+
+#img-myself {
+  width: 50%;
+  border-radius: 70%;
+}
+
+#img-hacker {
+  width: 6%;
+}
+
+header {
+  background-color: #2b2d42;
+  padding-bottom: 70px;
+}
+
+#main-navbar {
+  font-size: 1.5rem;
+  font-family: "Ubuntu", sans-serif;
+  background: none;
+}
+
+#main-navbar #brand {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+#main-navbar #brand:hover {
+  color: #06d63a;
+}
+
+#main-navbar .nav-link {
+  color: white;
+}
+
+#main-navbar .nav-link:hover {
+  color: #06d63a;
+}
+
+/* #1d9057  #6143a1*/
+
+#main-navbar.scrolled {
+  background-color: #6143a1 !important;
+  transition: background-color 20ms linear;
+}
+
+#main-navbar.on-top {
+  background-color: none;
+}
+
+#skills {
+  padding-top: 50px;
+}
+
+#skills h2,
+#touch h2 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+#skills h3,
+#touch h3 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.gif-dev {
+  border-radius: 50%;
+  padding: 20px;
+}
+
+.gif-hacker {
+  border-radius: 90%;
+}
+
+#img-hacker-2 {
+  width: 6%;
+}
+
+#contact-me {
+  background: none;
+  color: #6143a1;
+  border: 2px solid;
+  padding: 1em 2em;
+  font-size: 1em;
+  font-weight: bold;
+  transition: color 0.25s, box-shadow 0.35s, border-color 0.2s, transform 0.5s;
+  border-radius: 1.5em;
+}
+
+#contact-me:hover {
+  border-color: chartreuse;
+  color: chartreuse;
+  box-shadow: 0 0.5em 0.5em -0.3em chartreuse;
+  transform: translateY(-0.3em);
+  cursor: pointer;
+}
+
+#contact-me:active {
+  border-color: rgb(17, 139, 253);
+  color: rgb(17, 139, 253);
+  box-shadow: 0 0.5em 0.5em -0.3em rgb(17, 139, 253);
+  transform: translateY(-0.3em);
+  cursor: pointer;
+}
+
+footer {
+  background: #6143a1;
+}
+
+footer a {
+  color: white;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+#facebook a:hover {
+  color: rgb(0, 174, 255);
+  text-decoration: none;
+}
+
+#instagram a:hover {
+  color: rgb(255, 0, 149);
+}
+
+#linkedin a:hover {
+  color: rgb(0, 17, 255);
+}
+
+#search:hover {
+  color: #6143a1;
+}
+
+@media (max-width: 1000) {
+  #my-name {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+}
